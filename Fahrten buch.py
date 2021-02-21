@@ -10,3 +10,5 @@ while True:
     print("Neue Kilometer Stand ist {}:  Kilometer gefahren {}".format(kilometer, kilometer_driven_daily))
     print(day)
     input()
+    if input == "quit":
+        break

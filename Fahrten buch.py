@@ -9,6 +9,6 @@ while True:
     day += 1
     print("Neue Kilometer Stand ist {}:  Kilometer gefahren {}".format(kilometer, kilometer_driven_daily))
     print(day)
-    input()
-    if input == "quit":
+    i = input()
+    if i == "quit":
         break
